@@ -1,0 +1,12 @@
+<!DOCTYPE aspectj PUBLIC "-//AspectJ//DTD//EN" "http://www.eclipse.org/aspectj/dtd/aspectj.dtd">
+<aspectj>
+	<weaver>
+		<include within="fr.jibibi.springaspectj..*" />
+		<include within="org.springframework.boot..*" />
+	</weaver>
+
+	<aspects>
+		<aspect name="fr.jibibi.springaspectj.aspects.JibibiAspects" />
+	</aspects>
+
+</aspectj>
